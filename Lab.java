@@ -9,8 +9,8 @@ public class Lab {
     }
 
     public static double func2(double x) {
-        double c = 1.0/3.0;
-        return Math.pow((c / (0.5 - Math.pow((Math.PI * x), x)) / 3), 3);
+        double c = 1.0 / 3.0;
+        return (Math.pow((c / (0.5 - Math.pow((Math.PI * x), x)) / 3), 3));
     }
 
     public static double func3(double x) {
@@ -52,10 +52,5 @@ public class Lab {
             }
             System.out.println(" ");
         }
-        for (int i = 0; i < 12; i++) {
-            System.out.print(x[i]);
-            System.out.print(" ");
-        }
-
     }
 }
