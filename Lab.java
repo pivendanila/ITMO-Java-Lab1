@@ -14,7 +14,7 @@ public class Lab {
     }
 
     public static double func3(double x) {
-        return (Math.PI/Math.pow((1.0/4.0)*(Math.pow(Math.pow())), ));
+        return (Math.pow(Math.PI / Math.pow((1.0 / 4.0) * (Math.pow(Math.pow(Math.E, x), 3) + 3.0), 3), Math.pow(2.0 * (Math.pow(Math.tan(x), 1.0 / 2.0 * Math.asin((x - 1.0) / 24.0))), 3)));
     }
 
     public static void main(String[] args) {
